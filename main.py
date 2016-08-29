@@ -17,7 +17,7 @@ def nCallBack():
 	os.system('python relayon.py')
 
 img = Tkinter.PhotoImage(file="123.gif")
-w = Tkinter.Label(top, text="Blaulicht Control", image=img)
+w = Tkinter.Label(top, text="BlueLight Control", image=img)
 B = Tkinter.Button(top, text="AN", command = nCallBack)
 A = Tkinter.Button(top, text="OFF", command = aCallBack)
 
